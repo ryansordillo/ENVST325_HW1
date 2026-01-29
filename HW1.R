@@ -40,14 +40,12 @@ temps_f <- (temps_c  * 9/5) + 32
 #HW Part
 #1.
 elevation_meters <- elevations / 3.281
-
 print(elevation_meters)
 
 #3. 
-
-longest_trip <- peaks[2,]
-print(longest_trip)
-
+max_index <- which.max(peaks$length)
+max_row <- peaks[max_index,]
+print(max_row)
 
 #4.
 
