@@ -36,6 +36,20 @@ temps_f <- c(-44, 0, 20, 35)
 
 temps_c <- (temps_f - 32) * 5/9
 
+########
+#HW Part
+#1.
+elevation_meters <- elevations / 3.281
+
+print(elevation_meters)
+
+#3. 
+
+longest_trip <- peaks[2,]
+print(longest_trip)
+
+
+#4.
 
 
 
