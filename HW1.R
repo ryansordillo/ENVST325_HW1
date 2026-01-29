@@ -32,9 +32,9 @@ peaks <- data.frame(
 #Practice mathematical operations in R. Convert the following observations from Celsius to Fahrenheit:
 #-44, 0, 20, 35.
 
-temps_f <- c(-44, 0, 20, 35)
+temps_c <- c(-44, 0, 20, 35)
 
-temps_c <- (temps_f - 32) * 5/9
+temps_f <- (temps_f  * 9/5) + 32
 
 ########
 #HW Part
