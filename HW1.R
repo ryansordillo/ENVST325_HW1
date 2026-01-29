@@ -43,13 +43,13 @@ elevation_meters <- elevations / 3.281
 print(elevation_meters)
 
 #3. 
+longest_trip <- peaks[2,]
 max_index <- which.max(peaks$length)
 max_row <- peaks[max_index,]
 print(max_row)
 
 #4.
 
-
-
+#Saved to github
 
 
