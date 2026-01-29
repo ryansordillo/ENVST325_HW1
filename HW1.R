@@ -34,7 +34,7 @@ peaks <- data.frame(
 
 temps_c <- c(-44, 0, 20, 35)
 
-temps_f <- (temps_f  * 9/5) + 32
+temps_f <- (temps_c  * 9/5) + 32
 
 ########
 #HW Part
